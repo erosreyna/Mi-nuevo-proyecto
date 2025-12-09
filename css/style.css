@@ -10,10 +10,6 @@
   border-color: #a30d31;
 }
 
-body {
-  padding-top: 80px; /* ajusta según el alto del navbar */
-}
-
 .hero{
    aspect-ratio: 9/16; /* estilo pantallas móviles */
 }
