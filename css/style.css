@@ -13,3 +13,10 @@
 .hero{
    aspect-ratio: 9/16; /* estilo pantallas móviles */
 }
+
+.navbar-toggler {
+  border: none;
+}
+.navbar-brand img{
+  max-height: 50px;
+}
