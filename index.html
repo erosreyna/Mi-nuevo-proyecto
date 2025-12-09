@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Casa Curly</title>
+
+  <!--FUENTE DE GOOGLE QUICKSAND-->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Css de bootstrap-->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body style="font-family: 'Quicksand', sans-serif;">
+
+  <!-- NAVBAR -->
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+      <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="">
+        </a>
+
+        <!-- Botón móvil -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+            <li class="nav-item mx-3">
+              <a class="nav-link fw-semibold" href="#servicios">Servicios</a>
+            </li>
+
+            <li class="nav-item mx-3">
+              <a class="nav-link fw-semibold" href="#nosotros">Nosotros</a>
+            </li>
+
+            <li class="nav-item mx-3">
+              <a class="nav-link fw-semibold" href="#testimonios">Reseñas</a>
+            </li>
+
+            <li class="nav-item mx-3">
+              <a class="nav-link fw-semibold" href="#formulario">Contáctanos</a>
+            </li>
+
+          </ul>
+
+          <!-- CTA -->
+          <span class="navbar-text">
+            <a class="btn px-4 py-2 rounded-5" href="#formulario"
+              style="background:#C7103A; color:white; transition:0.3s;" onmouseover="this.style.background='#A00D31'"
+              onmouseout="this.style.background='#C7103A'">
+              Reservar una cita
+            </a>
+
+
+          </span>
+        </div>
+
+      </div>
+    </nav>
+  </section>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero" class="d-flex align-items-center" style="
+  background-image: url('img/hero.png');
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+  min-height: 100vh;">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <h1 class="display-1 fw-bold" style="color: #8D0B29;">Deja que tu cabello brille</h1>
+            <h5 class="fw-medium mb-3" style="color: #8D0B29;">Redescubre la forma natural de tus
+              rizos con un cuidado hecho a la medida.</h5>
+
+            <a class="btn px-4 py-2 rounded-5" href="#servicios"
+              style="background:#C7103A; color:white; transition:.3s;" onmouseover="this.style.background='#A00D31'"
+              onmouseout="this.style.background='#C7103A'">
+              Ver nuestros servicios
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!--SOBRE NOSOTROS-->
+    <section id="nosotros">
+      <div class="container">
+        <div class="row mt-5 py-5 align-items-center">
+
+          <div class="col-12 col-md-5 offset-md-1">
+            <img src="img/nosotros1.png" class="img-fluid" alt="chica rizada">
+          </div>
+
+
+          <div class="col-12 col-md-5 offset-md-1">
+            <h1 class="fw-semibold">Donde tus rizos se sienten en casa</h1>
+            <p>Somos un espacio dedicado a realzar la belleza natural del cabello ondulado, rizado y afro, con
+              atención
+              cercana y resultados hechos exclusivamente para ti.
+            </p>
+            <button type="button" class="btn btn-outline-danger rounded-5">Conócenos</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--BENEFICIOS-->
+    <section id="beneficios">
+      <div class="container">
+        <div class="row mt-5 py-2">
+
+          <div class="col-12 col-md-4 offset-1 mb-4 px-5">
+            <h2>Expertos en texturas reales</h2>
+            <p class="fw-medium">Creamos rutinas y servicios pensados para que tu textura se vea definida, ligera y con un movimiento real
+              y saludable.</p>
+          </div>
+
+          <div class="col-12 col-md-2 text-center mb-4">
+            <img src="img/icon1.png" class="icon-full">
+            <p class="mt-2">Ambiente relajante</p>
+          </div>
+
+          <div class="col-12 col-md-2 text-center mb-4">
+            <img src="img/icon2.png" class="icon-full img-fluid">
+            <p class="mt-2">Productos para cada patrón</p>
+          </div>
+
+          <div class="col-12 col-md-2 text-center mb-4">
+            <img src="img/icon3.png" class="icon-full">
+            <p class="mt-2">Atención personalizada</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--NUESTROS SERVICIOS-->
+    <section id="servicios" style="background-color: #F9E7EB;">
+      <div class="container pb-5 pt-3">
+        <div class="row mt-5">
+
+          <div class="col-12 text-center mb-4">
+            <h3 class="fw-semibold">Conoce Nuestros Servicios</h3>
+            <p>Todo lo que tus rizos necesitan para verse sanos, definidos y llenos de vida</p>
+          </div>
+
+          <!-- CARD 1 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
+            <div class="card rounded-5" style="width: 21rem;">
+              <img src="img/serv1.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body text-center">
+                <h5>Corte</h5>
+                <p class="card-text">Corte especializado que respeta el patrón natural de tu rizo u onda, equilibrando
+                  volumen, forma y movimiento para un resultado armónico y saludable.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
+            <div class="card rounded-5" style="width: 21rem;">
+              <img src="img/serv2.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body text-center">
+                <h5>Tratamiento</h5>
+                <p class="card-text">Hidratación, reparación y nutrición profunda según las necesidades de tu textura,
+                  restaurando la salud capilar desde la raíz y mejorando suavidad, brillo y elasticidad.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
+            <div class="card rounded-5" style="width: 21rem;">
+              <img src="img/serv3.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body text-center">
+                <h5>Definición</h5>
+                <p class="card-text">Técnicas de estilizado diseñadas para realzar tu patrón natural, logrando rizos más
+                  formados, ligeros y sin frizz, con una definición que se mantiene durante el día.</p>
+              </div>
+            </div>
+          </div>
+          <!--botón-->
+          <div class="col-12 text-center mt-3">
+            <a href="#formulario" type="button" class="btn btn-outline-danger rounded-5 px-4">Agenda tu cita</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--TESTIMONIOS-->
+    <section id="testimonios">
+      <div class="container">
+        <div class="row mt-5 py-5 text-center">
+          <div class="col-12 mb-4 py pb-3">
+            <h3 class="fw-semibold">Testimonios</h3>
+          </div>
+
+          <!-- Primer testimonio -->
+          <div class="col-12 col-md-6 mb-4">
+            <div class="row align-items-center">
+              <div class="col-4 col-md-4">
+                <img src="img/testi1.png" class="img-fluid">
+              </div>
+              <div class="col-8 col-md-6 text-start">
+                <p class="fw-medium">Me encantó la atención. Entendieron mi tipo de rizo y por primera vez sentí que mi cabello quedó
+                  justo como yo quería.</p>
+                <p class="fw-medium"><small>Melissa Torres</small></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Segundo testimonio -->
+          <div class="col-12 col-md-6 mb-4">
+            <div class="row align-items-center">
+              <div class="col-4 col-md-4">
+                <img src="img/testi2.png" class="img-fluid">
+              </div>
+              <div class="col-8 col-md-6 text-start">
+                <p class="fw-medium">El corte quedó increíble. Me explicaron cada paso y usaron productos que realmente funcionaron para
+                  mis rizos.</p>
+                <p class="fw-medium"><small>Ana Reyes</small></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--CERTIFICIACIONES-->
+    <section id="certificaiones">
+      <div class="container">
+        <div class="row mt-5 align-items-center">
+          <div class="col-12 col-md-4 offset-2 mb-5">
+            <h4 class="fw-semibold">Nuestras Certificaciones</h4>
+            <p class="fw-medium">En La Casa Curly, garantizamos calidad y profesionalismo con certificaciones reconocidas dentro de la
+              industria</p>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <img src="img/certific.png" class="img-fluid mb-5 pb-4">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--FORMULARIO-->
+    <section id="formulario" class="d-flex align-items-center justify-content-center mt-5 min-vh-100" style="background-image:url('img/Fondo formulario.png');
+       background-size:cover;
+       background-position:center;">
+
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-12 col-md-6 d-flex align-items-center">
+            <h2 class="display-4 fw-semibold">Transforma tus rizos con una atención profesional</h2>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="row g-3">
+
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Nombres</label>
+                  <input type="text" class="form-control rounded-5" id="Nombres">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Apellidos</label>
+                  <input type="text" class="form-control rounded-5" id="Apellidos">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Número de celular</label>
+                  <input type="text" class="form-control rounded-5" id="inputAddress">
+                </div>
+
+                <div class="col-12">
+                  <label for="inputState" class="form-label">Tipo de servicio</label>
+                  <select id="inputState" class="form-select rounded-5">
+                    <option selected>Elige una opción</option>
+                    <option>Corte</option>
+                    <option>Tratamiento</option>
+                    <option>Definición</option>
+                  </select>
+                </div>
+
+                <div class="col-12">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea class="form-control rounded-4" id="mensaje" rows="4"></textarea>
+                </div>
+
+
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Estoy de acuerdo
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <a class="btn px-4 py-2 rounded-5" style="background:#C7103A; color:white; transition:.3s;"
+                    onmouseover="this.style.background='#A00D31'" onmouseout="this.style.background='#C7103A'">
+                    Enviar</a>
+
+                  <button type="reset" class="btn btn-outline-light rounded-5 px-4 py-2 ms-2">Borrar</button>
+                </div>
+
+
+              </form>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!--PIE DE PÁGINA-->
+  <footer>
+    <section id="footer" class="py-5" style="background-image:url('img/fondo footer.png');
+background-size: cover;
+background-position: center;
+min-height: 450px;">
+
+
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md-6 col-xl-3 pb-3">
+            <img src="img/Logo blanco.png">
+            <h5 class="py-4" style="color: white;">¡Deja que tu cabello brille!</h5>
+            <a href="#formulario" type="button" class="btn btn-outline-light rounded-5">Contáctanos</a>
+
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <h5 style="color: white;">Encuéntranos</h5>
+            <p class="pt-4" style="color: white;">Stand G4 Primer Piso CC Boulevard Trujillo</p>
+            <p style="color: white;">954 185 656</p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <h5 style="color: white;">Horario de atención:</h5>
+            <p class="pt-4" style="color: white;">Lunes a Sábado: 9:00 am-8:00 pm
+              Domingos: 10:00 am-6:00 pm</p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <h5 style="color: white;">¡Síguenos!</h>
+              <div><img class="py-3" src="img/redes.png"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+  <!--Js de Bootstrap-->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
