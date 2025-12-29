@@ -1,3 +1,123 @@
+/*Fondo Color*/
+body {
+  background-color: #fdfcfb;
+}
+
+/*NavBar*/
+.my_navbar {
+  background-color: #fdfcfb;
+}
+
+/* Heros*/
+#Hero-Escritorio {
+  background-image: url(../img/hero.png);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#Hero-Tablet {
+  background-image: url(../img/hero\ tablet.png);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#hero-mobile {
+  background-image: url(../img/hero\ mobile\ 2.0.png);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-titulo-subtitulo {
+  color: #8D0B29;
+}
+
+
+/*sección servicios*/
+#servicios {
+  background-color: #F9E7EB;
+}
+
+.card-servicio {
+  background-color: #fdfcfb;
+  width: 21rem;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card-servicio:hover {
+  transform: translateY(-10px);
+}
+
+/*Formulario*/
+#Formulario {
+  background-image: url(../img/fondo\ Hero\ re.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.My_Form {
+  background-color: #f4f2f2;
+  padding: 20px;
+  border-radius: 30px;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/*footer*/
+#footer {
+  background-color: #8D0B29;
+  min-height: 450px;
+  color: white;
+}
+
+
+.redes-sociales {
+  width: 48px;
+  height: 48px;
+  background-color: #F0F0F0;
+  color: #616161;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+
+.redes-sociales:hover {
+  background-color: #e3e3e3;
+  transform: translateY(-5px);
+}
+
+
+/*general*/
+h2 {
+  font-weight: 600
+}
+
+p {
+  font-weight: 500;
+}
+
+/*Botones*/
+
+.btn-curly {
+  background-color: #C7103A;
+  border-color: #C7103A;
+  color: white;
+  border: none;
+}
+
+.btn-curly:hover {
+  background-color: #a30d31;
+  border-color: #a30d31;
+  color: white;
+}
+
 
 .btn-cita {
   background-color: #C7103A;
@@ -6,17 +126,20 @@
 }
 
 .btn-cita:hover {
-  background-color: #a30d31; /* un poco más oscuro */
+  background-color: #a30d31;
+  /* un poco más oscuro */
   border-color: #a30d31;
 }
 
-.hero{
-   aspect-ratio: 9/16; /* estilo pantallas móviles */
+.hero {
+  aspect-ratio: 9/16;
+  /* estilo pantallas móviles */
 }
 
 .navbar-toggler {
   border: none;
 }
-.navbar-brand img{
+
+.navbar-brand img {
   max-height: 50px;
 }
